@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Split landing page</title>
+</head>
+<body>
+  <div class="container">
+
+    <div class="top layer">
+      <div class="wrapper">
+        <div class="body-content">
+          <h1>The Designer</h1>
+          <button type="submit">Read more</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom layer">
+      <div class="wrapper">
+        <div class="body-content">
+          <h1>The Programmer</h1>
+          <button type="submit">Read more</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    const top_wrapper=document.querySelector('.top .wrapper');
+    top_wrapper.addEventListener('mousemove',function(e){
+  
+     e.target.style.width='60vw';
+  
+    })
+  </script>
+</body>
+</html>
